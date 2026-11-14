@@ -7,8 +7,6 @@ document.addEventListener("DOMContentLoaded", () => {
   const signupForm = document.getElementById("signup-form");
   const activityInput = document.getElementById("activity");
   const closeRegistrationModal = document.querySelector(".close-modal");
-  const announcementBanner = document.getElementById("announcement-banner");
-  const dismissAnnouncementButton = document.getElementById("dismiss-announcement");
 
   // Search and filter elements
   const searchInput = document.getElementById("activity-search");
@@ -237,10 +235,6 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   // Event listeners for authentication
-  dismissAnnouncementButton.addEventListener("click", () => {
-    announcementBanner.classList.add("hidden");
-  });
-
   loginButton.addEventListener("click", openLoginModal);
   logoutButton.addEventListener("click", logout);
   closeLoginModal.addEventListener("click", closeLoginModalHandler);
