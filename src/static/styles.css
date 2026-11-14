@@ -73,6 +73,32 @@ header h2 {
   font-size: 1.2rem;
 }
 
+.announcement-banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 15px;
+  padding: 15px;
+  border-radius: 5px;
+  background-color: #4caf50;
+  color: white;
+  font-weight: bold;
+}
+
+.announcement-banner button {
+  flex: 0 0 auto;
+  padding: 2px 8px;
+  background: transparent;
+  color: inherit;
+  font-size: 1.25rem;
+  line-height: 1;
+}
+
+.announcement-banner button:hover {
+  background-color: rgba(255, 255, 255, 0.15);
+}
+
 main {
   display: flex;
   flex-wrap: wrap;
